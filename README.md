@@ -29,7 +29,7 @@
 1. Place the images you want to scale in the `input` folder.
 2. Run the script:
     ```bash
-    python scale_img.py -tp=10MP input output
+    poetry run python scale_img.py -tp=10MP input output
     ```
 3. Processed images will be saved in the `output` folder.
 
